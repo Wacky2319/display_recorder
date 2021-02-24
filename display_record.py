@@ -18,6 +18,6 @@ while True:
     # press ESC to exit
     if cv2.waitKey(1) == 27:
         break
-    time.sleep(1/fps)
+    # time.sleep(1/fps)
 
 cv2.destroyAllWindows()
